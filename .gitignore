@@ -1,0 +1,35 @@
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Variables de entorno y configuraciones locales
+.env
+config.py
+
+
+# Notebooks (checkpoints)
+.ipynb_checkpoints/
+
+# Datos (ajusta según convenga: ignorar carpetas o archivos grandes)
+data/raw/
+data/processed/
+
+# Logs
+*.log
+
+# Resultados generados
+output/
+reports/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de VS Code (opcional, si no necesitas compartirla)
+.vscode/
